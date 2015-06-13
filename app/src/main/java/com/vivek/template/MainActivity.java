@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                try{
 
-                   process = Runtime.getRuntime().exec("reboot");
+                   process = Runtime.getRuntime().exec("su -c reboot");
 
                }catch (IOException e){
 
